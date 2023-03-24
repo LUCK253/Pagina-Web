@@ -2,5 +2,59 @@
     background: black;
     margin: 0;
     padding: 0;
+}
 
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: white;
+}
+
+.agrupar{
+    width: 100%;
+    margin: 15px auto;
+}
+
+.cabeza {
+    background: rgb(177, 35, 35);
+    padding: 20px;
+}
+
+.cabeza h1 {
+    text-align: center;
+}
+
+.nav {
+    padding: 5px;
+    text-align: left;
+}
+
+.nav li {
+    list-style: none;
+    padding: 5px;
+    font: bold 1px verdana;
+    display: inline-block;
+    font-size: medium;
+}
+
+.X {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+article {
+    background-color: black;
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 15px;
 }
